@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(255, 170, 170, 1);
+    min-height: 100vh;
+}
+
+.section {
+    padding: 1rem 1.5rem;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 5rem;
+    font-family: 'KoHo', sans-serif;
+}
+.subtitle {
+    font-size: 1.7rem;
+    font-family: 'Gamja Flower', cursive;
+    margin-bottom: 30px;
+}
+
+.is-sweeter {
+    color: #ff8181 !important;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.button.is-sweeter {
+    background-color: #ff8181;
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.button.is-sweeter.is-outlined {
+    background-color: transparent;
+    border-color: #ff8181;
+    color: #ff8181 !important;
+}
+
+.help {
+    color: gray;
+}
