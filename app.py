@@ -12,7 +12,7 @@ app.config['UPLOAD_FOLDER'] = "./static/profile_pics"
 
 SECRET_KEY = 'SWEETER'
 
-client = MongoClient('mongodb://52.79.142.12', 27017, username="test", password="test")
+client = MongoClient('mongodb://ip주소', 27017, username="유저아이디", password="유저비밀번호")
 db = client.dbsweeter
 
 
